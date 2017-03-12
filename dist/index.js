@@ -1,1 +1,1 @@
-"use strict";function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}var _express=require("express"),_express2=_interopRequireDefault(_express),app=(0,_express2.default)();app.get("*",function(e,r){r.send("ok everything")}),app.listen(80);
+"use strict";function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}var _express=require("express"),_express2=_interopRequireDefault(_express),app=(0,_express2.default)();app.get("*",function(e,s){s.send("asdasd everything")}),app.listen(80);
